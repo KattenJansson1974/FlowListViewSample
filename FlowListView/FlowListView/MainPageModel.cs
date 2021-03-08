@@ -15,7 +15,7 @@ namespace FlowListViewSample
 
         private void AddItems()
         {
-            for (int i = 0; i < 20; i++)
+            for (int i = 0; i < 30; i++)
                 Items.Add(string.Format("List Item at {0}", i));
         }
 
