@@ -15,11 +15,11 @@
                 <DataTemplate>
                     <Frame BackgroundColor="Purple" Margin="5">
                         <Label HorizontalOptions="Fill" 
-                    VerticalOptions="Fill" 
-                    TextColor="White"
-                    XAlign="Center"
-                    YAlign="Center" 
-                    Text="{Binding }"/>
+                            VerticalOptions="Fill" 
+                            TextColor="White"
+                            XAlign="Center"
+                            YAlign="End" 
+                            Text="{Binding }"/>
                     </Frame>
                 </DataTemplate>
             </flv:FlowListView.FlowColumnTemplate>
